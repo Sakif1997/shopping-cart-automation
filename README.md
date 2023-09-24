@@ -250,7 +250,7 @@ public class Methods {
 ```
 ### Scenario Replication Classes
 
-### Targeted Scenario:  
+### Targeted Scenario(1,2):  
 1. Visit https://automationexercise.com/  
 2. Verify that the home page is visible successfully  
 
@@ -304,7 +304,7 @@ Execution Result image:
 ![TestResult 1 2](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/068e9c14-cf0f-4c07-8bf4-3efe308e46f9)
 
 
-### Next Targeted scenario
+### Next Targeted scenario(3,4)
 3. Sign Up with all the required and non-required fields (Date of Birth) including assertions  
 4. Log out from the website.  
 Overview of the selecting path of the page image:  
@@ -423,7 +423,7 @@ public class SignUp extends BrowserSetup{
 Execution Result Image:  
 ![TestResult 3  $](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/16f2b803-0316-417e-917c-2f4bc4825dfc)
 
-### Next Targeted scenario
+### Next Targeted scenario(5,6)
 5. Login User with incorrect email and password. Verify the warning/error message.  
 6. Login User with the correct email and password. Verify All Products and product
 detail page.  
@@ -554,7 +554,7 @@ public class ValidLoginInput extends BrowserSetup {
 Execution Result Image:  
 ![Valid Test result](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/db1a3288-863c-4953-afa8-ed5e813eb760)
 
-### Next Targeted scenario
+### Next Targeted scenario(7)
 7. Search Product. You can choose your desired product. Verify 'SEARCHED
 PRODUCTS' is visible.  
 Overview of the selecting path of the page image:  
@@ -629,7 +629,7 @@ Execution Result Image:
 ![S7 testresult](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/a8b82dab-9a3c-4bf5-8f00-c4244a991712)
 
 
-### Next Targeted scenario
+### Next Targeted scenario(8-12)
 8. Add Products to Cart.  
 9. Add quantity as negative such as (-2) for the product and click on Add to Cart button and Continue Shopping button.    
 10. Verify Price, negative Quantity and Negative Total.  
@@ -758,7 +758,7 @@ public class VerifyNegativeCartProductDetails extends BrowserSetup{
 Execution Result Image:  
 ![Test result 8,9,10,11,12](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/cb296fe8-7119-4959-b5d5-9db15c6a37fe)
 
-### Next Targeted scenario
+### Next Targeted scenario(13-18)
 13. Verify Proceed to Checkout Button is not disabled and click on the button  
 14. Verify the details of DELIVERY ADDRESS and BILLING ADDRESS are the same.  
 15. Place an Order and fill up Payment details. You can put dummy card information.  
