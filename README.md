@@ -922,6 +922,13 @@ Product Name: Blue Top
 Category: Women > Tops  
 Price: Rs. 500  
 Create an Array/Object/ JSON file using the given details. Then, Search with the product name and verify the details are equal to the created JSON/Array/Object file.  
+Overview of the selecting path of the page image:  
+![bonusResult](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/75985bf9-8868-4e9c-ad7b-24c3e35d922c)
+
+Method:   
+PackageName: PageObjectsAndMethods  
+CLassName:   BonusTaskObjects
+
 ```ruby
 package PageObjectsAndMethods;
 
@@ -963,6 +970,9 @@ public class BonusTaskObjects extends Methods {
 
 }
 ```
+For testSuite Run:  
+PackageName: TestPageCases  
+CLassName: BonusTask  
 ```ruby
 package TestPageCases;
 
