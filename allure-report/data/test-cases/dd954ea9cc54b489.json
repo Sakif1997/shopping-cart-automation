@@ -1,0 +1,151 @@
+{
+  "uid" : "dd954ea9cc54b489",
+  "name" : "Scenario 6: Login User with the correct email and password. Verifying All featured product are visible",
+  "fullName" : "TestPageCases.ValidLoginInput.validLoginInput",
+  "historyId" : "c1faea1e36b76c857e02956a3b01c288",
+  "time" : {
+    "start" : 1695575807875,
+    "stop" : 1695575836598,
+    "duration" : 28723
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1695575711481,
+      "stop" : 1695575722552,
+      "duration" : 11071
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8c17045437c38a1b",
+      "name" : "Feature Product",
+      "source" : "8c17045437c38a1b.png",
+      "type" : "image/png",
+      "size" : 15322
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1695576067678,
+      "stop" : 1695576070014,
+      "duration" : 2336
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestPageCases.ValidLoginInput"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPageCases.ValidLoginInput"
+  }, {
+    "name" : "testMethod",
+    "value" : "validLoginInput"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageCases.ValidLoginInput"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "15328@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "63a3cb5006701fe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695575168915,
+        "stop" : 1695575210571,
+        "duration" : 41656
+      }
+    }, {
+      "uid" : "a13ac4cefa3f6f15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695574637402,
+        "stop" : 1695574660604,
+        "duration" : 23202
+      }
+    }, {
+      "uid" : "8fcfa1225706897f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695573133179,
+        "stop" : 1695573159431,
+        "duration" : 26252
+      }
+    }, {
+      "uid" : "d3ee4685e22a22c7",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=117.0.2045.36)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [5d620135993c9c2011815edb04586552, get {url=https://automationexercise.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61878}, msedge: {msedgedriverVersion: 117.0.2045.40 (1a64d4a93998..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61878/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5d620135993c9c2011815edb04586552",
+      "time" : {
+        "start" : 1695572973205,
+        "stop" : 1695572973222,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "d44f6ad2c1fa548e",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=117.0.2045.36)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7514c4cb0cd8a89c05bc0499a9301f76, get {url=https://automationexercise.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61643}, msedge: {msedgedriverVersion: 117.0.2045.40 (1a64d4a93998..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61643/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7514c4cb0cd8a89c05bc0499a9301f76",
+      "time" : {
+        "start" : 1695572854688,
+        "stop" : 1695572854695,
+        "duration" : 7
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd954ea9cc54b489.json",
+  "parameterValues" : [ ]
+}

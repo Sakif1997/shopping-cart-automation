@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails">
+        <methods>
+          <include name="VerifyProcedTocheckout"/>
+          <include name="PaymentToConfirmOrderAndDownloadInvoice"/>
+          <include name="setBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="InvoiceVerification"/>
+          <include name="LoginToShoppingCart"/>
+          <include name="AdressVerificationAndPlaceorder"/>
+        </methods>
+      </class> <!-- TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails -->
+      <class name="TestPageCases.VerifyNegativeCartProductDetails">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="quantityToProductdetails"/>
+          <include name="QuantityAddToSameProduct"/>
+        </methods>
+      </class> <!-- TestPageCases.VerifyNegativeCartProductDetails -->
+      <class name="TestPageCases.BonusTask">
+        <methods>
+          <include name="MatchProductWithSearch"/>
+          <include name="setBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- TestPageCases.BonusTask -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

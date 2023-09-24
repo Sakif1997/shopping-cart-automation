@@ -1,0 +1,158 @@
+{
+  "uid" : "c2a3a9f3f51e2a25",
+  "name" : "Scenario 3 & 4 SignUp Validation and logout",
+  "fullName" : "TestPageCases.SignUp.SignUpV",
+  "historyId" : "8b49b8815958ce81b87b5c34a2938a2f",
+  "time" : {
+    "start" : 1695575733968,
+    "stop" : 1695575781354,
+    "duration" : 47386
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1695575711481,
+      "stop" : 1695575722552,
+      "duration" : 11071
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2df9c13fa35c85c",
+      "name" : "Account Created",
+      "source" : "2df9c13fa35c85c.png",
+      "type" : "image/png",
+      "size" : 32958
+    }, {
+      "uid" : "ce99cf5c14140e33",
+      "name" : "New ID generated",
+      "source" : "ce99cf5c14140e33.png",
+      "type" : "image/png",
+      "size" : 32958
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1695576067678,
+      "stop" : 1695576070014,
+      "duration" : 2336
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestPageCases.SignUp"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPageCases.SignUp"
+  }, {
+    "name" : "testMethod",
+    "value" : "SignUpV"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageCases.SignUp"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "15328@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c79c0129f31ab329",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //b[normalize-space()='Enter Account Information'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1695574937536,
+        "stop" : 1695574975391,
+        "duration" : 37855
+      }
+    }, {
+      "uid" : "1a68a79f75e1a6fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695574561436,
+        "stop" : 1695574608796,
+        "duration" : 47360
+      }
+    }, {
+      "uid" : "dee8afe0cb5849c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695573059026,
+        "stop" : 1695573108642,
+        "duration" : 49616
+      }
+    }, {
+      "uid" : "ca4d9d2e0d1e7efb",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=117.0.2045.36)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [5d620135993c9c2011815edb04586552, findElement {using=xpath, value=//a[normalize-space()='Signup / Login']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61878}, msedge: {msedgedriverVersion: 117.0.2045.40 (1a64d4a93998..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61878/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5d620135993c9c2011815edb04586552",
+      "time" : {
+        "start" : 1695572952042,
+        "stop" : 1695572973134,
+        "duration" : 21092
+      }
+    }, {
+      "uid" : "fb71679062c2e395",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //b[normalize-space()='Enter Account Information'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1695572813865,
+        "stop" : 1695572854635,
+        "duration" : 40770
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2a3a9f3f51e2a25.json",
+  "parameterValues" : [ ]
+}

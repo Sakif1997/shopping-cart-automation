@@ -1,0 +1,91 @@
+{
+  "uid" : "dee8afe0cb5849c0",
+  "name" : "Scenario 3 & 4 SignUp Validation and logout",
+  "fullName" : "TestPageCases.SignUp.SignUpV",
+  "historyId" : "8b49b8815958ce81b87b5c34a2938a2f",
+  "time" : {
+    "start" : 1695573059026,
+    "stop" : 1695573108642,
+    "duration" : 49616
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1695573039165,
+      "stop" : 1695573047624,
+      "duration" : 8459
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1695573336599,
+      "stop" : 1695573339206,
+      "duration" : 2607
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestPageCases.SignUp"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPageCases.SignUp"
+  }, {
+    "name" : "testMethod",
+    "value" : "SignUpV"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageCases.SignUp"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "5468@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dee8afe0cb5849c0.json",
+  "parameterValues" : [ ]
+}

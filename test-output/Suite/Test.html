@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 24 23:15:22 BDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>344 seconds (344948 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestPageCases.VerifyNegativeCartProductDetails.QuantityAddToSameProduct()'><b>QuantityAddToSameProduct</b><br>Test class: TestPageCases.VerifyNegativeCartProductDetails<br>Test method: scenario 11,12 : Verifying after negation; add a quantity of 10 for the product, Verifying total quantity,price</td>
+<td></td>
+<td>18</td>
+<td>TestPageCases.VerifyNegativeCartProductDetails@5c7933ad</td></tr>
+<tr>
+<td title='TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails.InvoiceVerification()'><b>InvoiceVerification</b><br>Test class: TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails<br>Test method: Scenario 16,17 and 18: Downloading Invoice , check Download text and loging out</td>
+<td></td>
+<td>9</td>
+<td>TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails@4b8d604b</td></tr>
+<tr>
+<td title='TestPageCases.BonusTask.MatchProductWithSearch()'><b>MatchProductWithSearch</b><br>Test class: TestPageCases.BonusTask<br>Test method: Bonus Task: Verifying and match Blue Top Women's products from the menu bar and search bar.</td>
+<td></td>
+<td>30</td>
+<td>TestPageCases.BonusTask@68c9d179</td></tr>
+<tr>
+<td title='TestPageCases.ValidLoginInput.validLoginInput()'><b>validLoginInput</b><br>Test class: TestPageCases.ValidLoginInput<br>Test method: Scenario 6: Login User with the correct email and password. Verifying All featured product are visible</td>
+<td></td>
+<td>28</td>
+<td>TestPageCases.ValidLoginInput@431cd9b2</td></tr>
+<tr>
+<td title='TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails.AdressVerificationAndPlaceorder()'><b>AdressVerificationAndPlaceorder</b><br>Test class: TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails<br>Test method: Scenario 14: Verifying the details of DELIVERY ADDRESS and BILLING ADDRESS are the same.</td>
+<td></td>
+<td>6</td>
+<td>TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails@4b8d604b</td></tr>
+<tr>
+<td title='TestPageCases.InvalidLoginInput.invalidInputresponse()'><b>invalidInputresponse</b><br>Test class: TestPageCases.InvalidLoginInput<br>Test method: Login User with invalid email and Invalid password. Verifying the warning/error message.</td>
+<td></td>
+<td>26</td>
+<td>TestPageCases.InvalidLoginInput@65f8f5ae</td></tr>
+<tr>
+<td title='TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails.LoginToShoppingCart()'><b>LoginToShoppingCart</b><br>Test class: TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails<br>Test method: Login To cart and replicating scenario 7,8,9,10,11,12</td>
+<td></td>
+<td>77</td>
+<td>TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails@4b8d604b</td></tr>
+<tr>
+<td title='TestPageCases.VerifySearchProduct.SearchProductVisible()'><b>SearchProductVisible</b><br>Test class: TestPageCases.VerifySearchProduct<br>Test method: Scenario 7: Verifying Search Product Visibility</td>
+<td></td>
+<td>35</td>
+<td>TestPageCases.VerifySearchProduct@5b7a7f33</td></tr>
+<tr>
+<td title='TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails.PaymentToConfirmOrderAndDownloadInvoice()'><b>PaymentToConfirmOrderAndDownloadInvoice</b><br>Test class: TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails<br>Test method: Scenario 15: Placing an Order and filling up Payment details. You can put dummy card information.</td>
+<td></td>
+<td>6</td>
+<td>TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails@4b8d604b</td></tr>
+<tr>
+<td title='TestPageCases.VerifyNegativeCartProductDetails.quantityToProductdetails()'><b>quantityToProductdetails</b><br>Test class: TestPageCases.VerifyNegativeCartProductDetails<br>Test method: Scenario 8,9,10: Search product, Add quantity of that product negative(-2), Verifying Price, negative Quantity and Negative Total. </td>
+<td></td>
+<td>40</td>
+<td>TestPageCases.VerifyNegativeCartProductDetails@5c7933ad</td></tr>
+<tr>
+<td title='TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails.VerifyProcedTocheckout()'><b>VerifyProcedTocheckout</b><br>Test class: TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails<br>Test method: Scenario 13: Verify Proceed to Checkout Button is not disabled and click on the button</td>
+<td></td>
+<td>6</td>
+<td>TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails@4b8d604b</td></tr>
+<tr>
+<td title='TestPageCases.SignUp.SignUpV()'><b>SignUpV</b><br>Test class: TestPageCases.SignUp<br>Test method: Scenario 3 & 4 SignUp Validation and logout</td>
+<td></td>
+<td>47</td>
+<td>TestPageCases.SignUp@26abb146</td></tr>
+<tr>
+<td title='TestPageCases.HomePage.LinkToHome()'><b>LinkToHome</b><br>Test class: TestPageCases.HomePage<br>Test method: Scenario 1 & 2 Home page visibility test</td>
+<td></td>
+<td>11</td>
+<td>TestPageCases.HomePage@15a34df2</td></tr>
+</table><p>
+</body>
+</html>

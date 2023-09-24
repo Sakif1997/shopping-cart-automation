@@ -1,0 +1,145 @@
+{
+  "uid" : "8c0ae5addc245b4e",
+  "name" : "Scenario 15: Placing an Order and filling up Payment details. You can put dummy card information.",
+  "fullName" : "TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails.PaymentToConfirmOrderAndDownloadInvoice",
+  "historyId" : "93fdd50a72f29c9f98622e8fa66fc6ee",
+  "time" : {
+    "start" : 1695576021011,
+    "stop" : 1695576027937,
+    "duration" : 6926
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1695575711481,
+      "stop" : 1695575722552,
+      "duration" : 11071
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "31e6bfb8c802cd42",
+      "name" : "Field Value Input Image",
+      "source" : "31e6bfb8c802cd42.png",
+      "type" : "image/png",
+      "size" : 36871
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1695576067678,
+      "stop" : 1695576070014,
+      "duration" : 2336
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails"
+  }, {
+    "name" : "testMethod",
+    "value" : "PaymentToConfirmOrderAndDownloadInvoice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageCases.VerifyProceedToCheckoutButtonAndAddressDetails"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "15328@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f5a706fc580713c",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=117.0.2045.36)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [76826ec735cba02f3fdefea741eee798, findElement {using=xpath, value=//input[@name='name_on_card']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64443}, msedge: {msedgedriverVersion: 117.0.2045.40 (1a64d4a93998..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64443/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 76826ec735cba02f3fdefea741eee798",
+      "time" : {
+        "start" : 1695574745449,
+        "stop" : 1695574745455,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "6639c3e2f797ea40",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name='name_on_card']\"}\n  (Session info: MicrosoftEdge=117.0.2045.36)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [bc9d563e5b457e3750830340da5b03ea, findElement {using=xpath, value=//input[@name='name_on_card']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62101}, msedge: {msedgedriverVersion: 117.0.2045.40 (1a64d4a93998..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62101/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: bc9d563e5b457e3750830340da5b03ea",
+      "time" : {
+        "start" : 1695573306574,
+        "stop" : 1695573306608,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "5df53593e4da9eec",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=117.0.2045.36)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [5d620135993c9c2011815edb04586552, findElement {using=xpath, value=//input[@name='name_on_card']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61878}, msedge: {msedgedriverVersion: 117.0.2045.40 (1a64d4a93998..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61878/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5d620135993c9c2011815edb04586552",
+      "time" : {
+        "start" : 1695572973477,
+        "stop" : 1695572973491,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "6f910857af9ad871",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=117.0.2045.36)\nBuild info: version: '4.6.0', revision: '79f1c02ae20'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [7514c4cb0cd8a89c05bc0499a9301f76, findElement {using=xpath, value=//input[@name='name_on_card']}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.36, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61643}, msedge: {msedgedriverVersion: 117.0.2045.40 (1a64d4a93998..., userDataDir: C:\\Users\\User\\AppData\\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61643/devtoo..., se:cdpVersion: 117.0.2045.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7514c4cb0cd8a89c05bc0499a9301f76",
+      "time" : {
+        "start" : 1695572854850,
+        "stop" : 1695572854855,
+        "duration" : 5
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c0ae5addc245b4e.json",
+  "parameterValues" : [ ]
+}

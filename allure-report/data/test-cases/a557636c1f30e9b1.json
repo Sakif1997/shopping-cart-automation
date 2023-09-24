@@ -1,0 +1,91 @@
+{
+  "uid" : "a557636c1f30e9b1",
+  "name" : "Login User with invalid email and Invalid password. Verifying the warning/error message.",
+  "fullName" : "TestPageCases.InvalidLoginInput.invalidInputresponse",
+  "historyId" : "506ac03690c4a9c6fcd0c72840d3cdd7",
+  "time" : {
+    "start" : 1695573108652,
+    "stop" : 1695573133167,
+    "duration" : 24515
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1695573039165,
+      "stop" : 1695573047624,
+      "duration" : 8459
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1695573336599,
+      "stop" : 1695573339206,
+      "duration" : 2607
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestPageCases.InvalidLoginInput"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPageCases.InvalidLoginInput"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidInputresponse"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageCases.InvalidLoginInput"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "5468@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a557636c1f30e9b1.json",
+  "parameterValues" : [ ]
+}

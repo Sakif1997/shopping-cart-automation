@@ -1,0 +1,107 @@
+{
+  "uid" : "63a3cb5006701fe0",
+  "name" : "Scenario 6: Login User with the correct email and password. Verifying All featured product are visible",
+  "fullName" : "TestPageCases.ValidLoginInput.validLoginInput",
+  "historyId" : "c1faea1e36b76c857e02956a3b01c288",
+  "time" : {
+    "start" : 1695575168915,
+    "stop" : 1695575210571,
+    "duration" : 41656
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1695575159042,
+      "stop" : 1695575168584,
+      "duration" : 9542
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c4c34f7f78411a53",
+      "name" : "Feature Product",
+      "source" : "c4c34f7f78411a53.png",
+      "type" : "image/png",
+      "size" : 15326
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1695575210840,
+      "stop" : 1695575212303,
+      "duration" : 1463
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestPageCases.ValidLoginInput"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPageCases.ValidLoginInput"
+  }, {
+    "name" : "testMethod",
+    "value" : "validLoginInput"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageCases.ValidLoginInput"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "15748@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63a3cb5006701fe0.json",
+  "parameterValues" : [ ]
+}

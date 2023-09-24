@@ -1,0 +1,141 @@
+{
+  "uid" : "d4bab180f835e164",
+  "name" : "Scenario 1 & 2 Home page visibility test",
+  "fullName" : "TestPageCases.HomePage.LinkToHome",
+  "historyId" : "6b60e66d17c0889329f4503761516b93",
+  "time" : {
+    "start" : 1695575722873,
+    "stop" : 1695575733836,
+    "duration" : 10963
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1695575711481,
+      "stop" : 1695575722552,
+      "duration" : 11071
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2bcff9e59f5d0799",
+      "name" : "Home Page",
+      "source" : "2bcff9e59f5d0799.png",
+      "type" : "image/png",
+      "size" : 341239
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1695576067678,
+      "stop" : 1695576070014,
+      "duration" : 2336
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestPageCases.HomePage"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPageCases.HomePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "LinkToHome"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageCases.HomePage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "15328@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dde2eba2765d5b5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695574551293,
+        "stop" : 1695574561046,
+        "duration" : 9753
+      }
+    }, {
+      "uid" : "3a2e51eb4d98f1ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695573048473,
+        "stop" : 1695573058915,
+        "duration" : 10442
+      }
+    }, {
+      "uid" : "504d0d8751bce5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695572918531,
+        "stop" : 1695572951826,
+        "duration" : 33295
+      }
+    }, {
+      "uid" : "e770e750d44a3ad0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695572804637,
+        "stop" : 1695572813566,
+        "duration" : 8929
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4bab180f835e164.json",
+  "parameterValues" : [ ]
+}

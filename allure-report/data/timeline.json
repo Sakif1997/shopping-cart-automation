@@ -1,0 +1,169 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-HCMDDC7",
+    "children" : [ {
+      "name" : "15328@DESKTOP-HCMDDC7.main(1)",
+      "children" : [ {
+        "name" : "Scenario 1 & 2 Home page visibility test",
+        "uid" : "d4bab180f835e164",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695575722873,
+          "stop" : 1695575733836,
+          "duration" : 10963
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario 16,17 and 18: Downloading Invoice , check Download text and loging out",
+        "uid" : "2076ff221decd65",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695576027946,
+          "stop" : 1695576037389,
+          "duration" : 9443
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login To cart and replicating scenario 7,8,9,10,11,12",
+        "uid" : "64346fd5604f023",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695575930639,
+          "stop" : 1695576008379,
+          "duration" : 77740
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario 14: Verifying the details of DELIVERY ADDRESS and BILLING ADDRESS are the same.",
+        "uid" : "5cc87392074fa0a7",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695576014807,
+          "stop" : 1695576020997,
+          "duration" : 6190
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario 6: Login User with the correct email and password. Verifying All featured product are visible",
+        "uid" : "dd954ea9cc54b489",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695575807875,
+          "stop" : 1695575836598,
+          "duration" : 28723
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Bonus Task: Verifying and match Blue Top Women's products from the menu bar and search bar.",
+        "uid" : "2d31df5528b0adb6",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695576037398,
+          "stop" : 1695576067493,
+          "duration" : 30095
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario 8,9,10: Search product, Add quantity of that product negative(-2), Verifying Price, negative Quantity and Negative Total. ",
+        "uid" : "3779aff9ff4029f2",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695575871855,
+          "stop" : 1695575912260,
+          "duration" : 40405
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "scenario 11,12 : Verifying after negation; add a quantity of 10 for the product, Verifying total quantity,price",
+        "uid" : "24c7d57e84a61171",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695575912270,
+          "stop" : 1695575930626,
+          "duration" : 18356
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario 3 & 4 SignUp Validation and logout",
+        "uid" : "c2a3a9f3f51e2a25",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695575733968,
+          "stop" : 1695575781354,
+          "duration" : 47386
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario 7: Verifying Search Product Visibility",
+        "uid" : "8149fe8016e3368f",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695575836632,
+          "stop" : 1695575871829,
+          "duration" : 35197
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login User with invalid email and Invalid password. Verifying the warning/error message.",
+        "uid" : "c7d25e93e0d9d786",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695575781366,
+          "stop" : 1695575807864,
+          "duration" : 26498
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario 15: Placing an Order and filling up Payment details. You can put dummy card information.",
+        "uid" : "8c0ae5addc245b4e",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695576021011,
+          "stop" : 1695576027937,
+          "duration" : 6926
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scenario 13: Verify Proceed to Checkout Button is not disabled and click on the button",
+        "uid" : "c697d2801ce94524",
+        "parentUid" : "d428391cd78946354e01182a560cd2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1695576008390,
+          "stop" : 1695576014796,
+          "duration" : 6406
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d428391cd78946354e01182a560cd2df"
+    } ],
+    "uid" : "87177cfd81531c20dadd9d12dc55f190"
+  } ]
+}

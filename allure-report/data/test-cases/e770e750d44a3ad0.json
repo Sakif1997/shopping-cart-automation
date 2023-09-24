@@ -1,0 +1,91 @@
+{
+  "uid" : "e770e750d44a3ad0",
+  "name" : "Scenario 1 & 2 Home page visibility test",
+  "fullName" : "TestPageCases.HomePage.LinkToHome",
+  "historyId" : "6b60e66d17c0889329f4503761516b93",
+  "time" : {
+    "start" : 1695572804637,
+    "stop" : 1695572813566,
+    "duration" : 8929
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1695572793304,
+      "stop" : 1695572804095,
+      "duration" : 10791
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "quitBrowser",
+    "time" : {
+      "start" : 1695572855057,
+      "stop" : 1695572855444,
+      "duration" : 387
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestPageCases.HomePage"
+  }, {
+    "name" : "testClass",
+    "value" : "TestPageCases.HomePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "LinkToHome"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPageCases.HomePage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "16012@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e770e750d44a3ad0.json",
+  "parameterValues" : [ ]
+}
