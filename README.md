@@ -996,6 +996,9 @@ public class BonusTask extends BrowserSetup{
 
 }
 ```
+Execution Result Image:  
+![bonusResult](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/b1360659-1551-4fd9-8a63-cf33dc693cb9)
+
 ## Automation of Scenario 1 to 18 Togather
 
 To run the whole test scenario togather:
