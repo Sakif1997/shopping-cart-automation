@@ -1089,6 +1089,3 @@ Allure Scenario test report:
 
 Allure Bonus task report:  
 ![ASBonus](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/4c8411eb-48dc-4407-ac48-18d2a1f7875c)
-
-
-
