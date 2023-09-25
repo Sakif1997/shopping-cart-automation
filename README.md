@@ -355,7 +355,7 @@ public class UserSignUpPage extends Methods{
 		System.out.println("Login/signup Page Title:  " +getDriver().getTitle());
 		Thread.sleep(2000);
 		FieldValue(UserName, "Sakif Abdullah");
-		FieldValue(EmailAddress, "sakif46464@gmail.com");
+		FieldValue(EmailAddress, "sakif46466@gmail.com");
 		Thread.sleep(2000);
 		clickElement(SignupButton);
 		WaitElementVisible(WaitSignUpFormPage);
@@ -1042,7 +1042,7 @@ first set dependency in the pom.xml file.
 ![allureresult](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/ba3d2123-a247-4ba0-9006-e8e24d767115)
 
 4. To get allure report open the whole package terminal
-5. then write in terminal to clean previous files> ""allure generate ./allure-result --clean""
+5. then write in terminal to clean previous files> ""allure generate ./allure-results --clean""  
 6. then write in terminal to create allure report> ""allure open ./allure-report""
 7. terminal gives us http to show us an allure report file directory
 Terminal image:
@@ -1060,8 +1060,7 @@ public void takeScreenshot(String name) {
 file link: ![terminalimage](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/1015a95e-77e5-454d-b411-75a695cacfc0)
 
 File generation instruction video: 
-https://drive.google.com/file/d/19D7APR9lLQhL1vU5sN8DLG9THijCuymt/view?usp=drive_link
-
+https://drive.google.com/file/d/19D7APR9lLQhL1vU5sN8DLG9THijCuymt/view?usp=drive_link  
 
 report overview:  
 ![r1](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/b71123f6-f5e9-4e16-9784-7fe548e4200f)  
@@ -1069,7 +1068,27 @@ report overview:
 Report Graph:  
 ![rg1](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/f52fdf71-4286-45c4-8f3d-1cd381ea69da)  
 
-
 Report Suite:  
 ![rtestsuites3](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/58633e44-6620-4d51-b046-c4256d752ace)  
+
+Test execution time report:  
+![allure execution time report](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/82924762-dda5-4b42-bc2a-73d0a5aa14da)
+
+Allure Scenario test report:  
+![AS1 2](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/a4d78c12-5d9a-4660-87e6-5db51fd0bb3f)
+![AS 3 4](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/10620f4c-2cdf-4bbf-a830-c5d1b8946019)
+![As6](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/168f69d9-4b7f-4b4f-a2b0-69e0aba1d973)
+![As 7](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/b3569ff4-2254-4166-bace-73a0dd14b072)
+![As 8,9,10](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/d1e7af33-b571-4162-b8e4-1aafe6d4e12f)
+![As 11,12](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/1d25083e-5e79-4ca1-a63f-13e875a99cee)
+![As 13](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/7a0d3351-34c7-44d9-9680-4e31ea6c32d5)
+![As 14](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/b636f803-16c3-45e6-bb71-c8ff972a7c69)  
+![As 15](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/fb985d1d-0a70-4aab-aa8a-6c9a38156dba)
+![As 16,17,18](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/8a24e5ed-6392-4a2e-8a88-7b8f5747f6b7)
+
+
+Allure Bonus task report:  
+![ASBonus](https://github.com/Sakif1997/shopping-cart-automation/assets/45315685/4c8411eb-48dc-4407-ac48-18d2a1f7875c)
+
+
 
