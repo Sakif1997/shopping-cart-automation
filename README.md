@@ -31,7 +31,8 @@ following scenarios, which will be replicated
 ## Test workflow
 
 ### Test file information
-The following instructions will help you navigate those testing pages. As I am following the page object model, I will create some packages. At the package level, there is a list of classes where you can create methods, use methods for particular pages, and run and test the testing pages separately
+The following instructions will help you navigate those testing pages. As I am following the page object model, I will create some packages. At the package level, there is a list of classes where you can create methods, use methods for particular pages, and run and test the testing pages separately and parallelly as well.  
+
 
 1. Set Environment
 i) pom.xml [dependencies set]  
