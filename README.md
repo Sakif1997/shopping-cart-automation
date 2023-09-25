@@ -1,8 +1,7 @@
 
 # Shopping Website Automation
 
-This project is for end-to-end testing of the "https://automationexercise.com/" website using the Page Object Model (POM) pattern. The following testing procedure will cover a wide range of functionalities, including user registration, login, product searching, cart management, checkout, and more. Your tests focused on verifying the correctness of user interactions, validating error messages, ensuring data consistency, and confirming the generation and handling of invoices.
-
+This project is for end-to-end testing of the "https://automationexercise.com/" website using the Page Object Model (POM) pattern. The following testing procedure will cover a wide range of functionalities, including user registration, login, product searching, cart management, checkout, and more.
 
 ## Target/goals
 following scenarios, which will be replicated
