@@ -250,7 +250,7 @@ public class Methods {
 ```
 ### Scenario Replication Classes
 
-### Targeted Scenario(1,2):  
+### Targeted Scenario(1,2)  
 1. Visit https://automationexercise.com/  
 2. Verify that the home page is visible successfully  
 
@@ -300,7 +300,7 @@ public class HomePage extends BrowserSetup{
 
 }
 ```
-Execution Result image:
+Execution Result image:  
 ![TestResult 1 2](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/068e9c14-cf0f-4c07-8bf4-3efe308e46f9)
 
 
@@ -420,7 +420,7 @@ public class SignUp extends BrowserSetup{
 
 }
 ```
-Execution Result Image:  
+Execution Result Image:    
 ![TestResult 3  $](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/16f2b803-0316-417e-917c-2f4bc4825dfc)
 
 ### Next Targeted scenario(5,6)
@@ -515,7 +515,7 @@ public class InvalidLoginInput extends BrowserSetup{
 
 }
 ```
-Execution Result Image:  
+Execution Result Image:   
 ![Invalidtest result](https://github.com/Sakif1997/Automation_testing_WebSite/assets/45315685/8e96f780-5f89-4ac5-8158-2617f0998741)
 
 For testSuite Run:  [Run as TestNG]  
