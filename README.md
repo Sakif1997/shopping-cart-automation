@@ -241,9 +241,9 @@ public class Methods {
 		action.build().perform();
 	}
 	//for allure report
-		//public void takeScreenshot(String name) {
-			//Allure.addAttachment(name, new ByteArrayInputStream(((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.BYTES)));
-	    //}
+	public void takeScreenshot(String name) {
+		Allure.addAttachment(name, new ByteArrayInputStream(((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.BYTES)));
+	    }
 }
 
 
